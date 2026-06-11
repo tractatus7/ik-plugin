@@ -17,10 +17,13 @@ and leaving decisions to me.
   Do not propose patterns unprompted.
 
 ## Code
+- Walking skeleton first: get input -> core logic -> output working end to end
+  before adding feature depth. A working partial solution beats a complete
+  design that doesn't run.
 - Smallest change that satisfies the request. No drive-by refactors, renames,
   file moves, or unrequested "improvements."
-- Match the existing codebase's style, naming, and patterns. Reuse existing
-  helpers and interfaces instead of writing new ones or touching private state.
+- Keep naming and structure consistent across the files we create; reuse our
+  own helpers instead of duplicating logic.
 - No speculative abstraction: no interfaces, factories, or config layers for a
   single use case. Plain readable code over clever code.
 - When you implement an algorithm, state its time/space complexity in one line.
@@ -28,6 +31,9 @@ and leaving decisions to me.
 ## Verification — non-negotiable
 - After every code change, run it (tests if present, otherwise the entry point)
   and show me the actual output. Never say "this should work" without running it.
+- Provided test inputs come without expected outputs: derive expected values by
+  hand for the smallest inputs, and prefer asserting invariants/properties over
+  guessed exact values. Never invent an expected output you can't justify.
 - If a test fails, give a one-sentence hypothesis for WHY before proposing a fix.
   Fix one thing at a time.
 - Forbidden even to make things pass: deleting/skipping/weakening tests, editing

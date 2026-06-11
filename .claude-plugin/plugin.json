@@ -1,6 +1,6 @@
 {
   "name": "ik",
-  "description": "AI-assisted interview kit: behavioral ground rules (via SessionStart hook) plus phase slash commands (/ik:orient, /ik:options, /ik:edges, /ik:verify, /ik:checkpoint, /ik:wrap)",
+  "description": "AI-assisted interview kit: behavioral ground rules (via SessionStart hook) plus phase slash commands (/ik:requirements, /ik:options, /ik:edges, /ik:verify, /ik:checkpoint, /ik:wrap)",
   "version": "1.0.0",
   "author": {
     "name": "Kyle Lin"

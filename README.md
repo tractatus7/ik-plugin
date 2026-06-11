@@ -15,7 +15,7 @@ commands and injects behavioral ground rules at session start.
 - **Ground rules** injected into context at session start (`context.md` via a
   SessionStart hook): human makes decisions, AI implements; run after every
   change; no test-weakening shortcuts; terse output; `tc N` / `??` time codes.
-- **Commands**: `/ik:orient`, `/ik:options`, `/ik:edges`, `/ik:verify`,
+- **Commands**: `/ik:requirements`, `/ik:options`, `/ik:edges`, `/ik:verify`,
   `/ik:checkpoint`, `/ik:wrap` — one per interview phase.
 
 ## Not included (plugin limitations)
