@@ -1,0 +1,14 @@
+{
+  "name": "ik-plugin",
+  "owner": {
+    "name": "Kyle Lin"
+  },
+  "description": "Single-plugin marketplace for the ik interview kit",
+  "plugins": [
+    {
+      "name": "ik",
+      "source": "./",
+      "description": "AI-assisted interview kit: behavioral ground rules plus phase slash commands"
+    }
+  ]
+}
